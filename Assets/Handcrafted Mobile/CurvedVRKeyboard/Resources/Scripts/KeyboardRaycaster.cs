@@ -32,29 +32,7 @@ namespace CurvedVRKeyboard {
             // * sum of all scales so keys are never to far
             rayLength = Vector3.Distance(raycastingSource.position, target.transform.position) * (minRaylengthMultipler + 
                  (Mathf.Abs(target.transform.lossyScale.x) + Mathf.Abs(target.transform.lossyScale.y) + Mathf.Abs(target.transform.lossyScale.z)));
-            ray = new Ray(raycastingSource.position, raycastingSource.forward);
-            if (Physics.Raycast(ray, out hit, rayLength, layer))
-            { // If any key was hit
-                KeyboardItem focusedKeyItem = hit.transform.gameObject.GetComponent<KeyboardItem>();
-                if (focusedKeyItem != null)
-                { // Hit may occur on item without script
-                    ChangeCurrentKeyItem(focusedKeyItem);
-                    keyItemCurrent.Hovering();
-#if !UNITY_HAS_GOOGLEVR
-                    if (Input.GetButtonDown(clickInputName))
-                    {// If key clicked
-#else
-                    if(GvrController.TouchDown) {
-#endif
-                        keyItemCurrent.Click();
-                        keyboardStatus.HandleClick(keyItemCurrent);
-                    }
-                }
-            }
-            else if (keyItemCurrent != null)
-            {// If no target hit and lost focus on item
-                ChangeCurrentKeyItem(null);
-            }
+            RayCastKeyboard();
         }
 
         /// <summary>
@@ -62,7 +40,24 @@ namespace CurvedVRKeyboard {
         /// If it does changes state of key
         /// </summary>
         private void RayCastKeyboard () {
-            
+            ray = new Ray(raycastingSource.position, raycastingSource.forward);
+            if(Physics.Raycast(ray, out hit, rayLength, layer)) { // If any key was hit
+                KeyboardItem focusedKeyItem = hit.transform.gameObject.GetComponent<KeyboardItem>();
+                if(focusedKeyItem != null) { // Hit may occur on item without script
+                    ChangeCurrentKeyItem(focusedKeyItem);
+                    keyItemCurrent.Hovering();
+#if !UNITY_HAS_GOOGLEVR
+                    if(Input.GetButtonDown(clickInputName)) {// If key clicked
+#else
+                    if(GvrController.TouchDown) {
+#endif
+                        keyItemCurrent.Click();
+                        keyboardStatus.HandleClick(keyItemCurrent);
+                    }
+                }
+            } else if(keyItemCurrent != null) {// If no target hit and lost focus on item
+                ChangeCurrentKeyItem(null);
+            }
         }
 
         private void ChangeCurrentKeyItem ( KeyboardItem key ) {
