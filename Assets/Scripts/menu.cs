@@ -4,13 +4,15 @@ using UnityEngine;
 
 public class menu : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    public void Button_click()
+    {
+        Debug.Log("Button Click");
+        string numberPlate = "ABC-DEF";
+        /*
+        if (numberPlate == text)
+        {
+            //event to show the driver's info
+        }
+        */
+    }
 }
