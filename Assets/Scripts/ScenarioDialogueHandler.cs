@@ -17,7 +17,7 @@ public class ScenarioDialogueHandler : MonoBehaviour {
         dialogueMgr.ResponseSelected += DialogueMgr_ResponseSelected;
         selectionUI.ChoiceSelected += SelectionUI_ChoiceSelected;
 
-        StartDialogue(); // TODO
+        //StartDialogue(); // TODO
     }
 
     private void DialogueMgr_DialogueActChanged(DialogueAct act)

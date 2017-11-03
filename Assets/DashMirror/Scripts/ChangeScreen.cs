@@ -28,7 +28,8 @@ public class ChangeScreen : MonoBehaviour {
 
     private void SwitchScreen()
     {
-        Debug.Log("Trigger Clicked");
+        Debug.Log(m_list.Length);
+        Debug.Log(index);
         index = (index + 1) % m_list.Length;
         GameObject.Find("Mesh671").GetComponent<MeshRenderer>().material = m_list[index];
     }
