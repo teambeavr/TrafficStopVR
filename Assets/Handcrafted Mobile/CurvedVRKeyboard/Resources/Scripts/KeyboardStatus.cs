@@ -8,7 +8,7 @@ namespace CurvedVRKeyboard {
 
         //-----------SET IN UNITY --------------
         [SerializeField]
-        public string  output;
+        public string  output = "";
         [SerializeField]
         public int maxOutputLength;
         [SerializeField]
@@ -79,7 +79,7 @@ namespace CurvedVRKeyboard {
         }
 
         private void TypeKey ( char key ) {
-            if(output.Length < maxOutputLength) {
+            if (output.Length < maxOutputLength) {
                 textComponent = targetGameObject.GetComponent(typeHolder.GetType());
                 textComponent.GetType().GetProperty(TEXT).SetValue(textComponent, output + key.ToString(),null);
                 output = output + key.ToString();

@@ -44,6 +44,11 @@ public class ScenarioDialogueHandler : MonoBehaviour {
 
     // Update is called once per frame
     void Update () {
+        if (!dialogueMgr.enabled)
+        {
+            return;
+        }
+
         // Check if dialogue audio is playing
         AudioSource audio = dialogueMgr.CurrentAct.GetComponent<AudioSource>();
         if (audio != null)

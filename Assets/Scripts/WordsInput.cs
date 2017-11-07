@@ -89,7 +89,7 @@ public class WordsInput : MonoBehaviour {
     }
     // Update is called once per frame
     void Update () {
-        if (Controller.GetHairTriggerDown())
+        if (Controller.GetHairTriggerUp())
         {
             Debug.Log("controller input");
             MouseOperations.MouseEvent(MouseOperations.MouseEventFlags.LeftUp | MouseOperations.MouseEventFlags.LeftDown);
