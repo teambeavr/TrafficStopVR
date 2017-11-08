@@ -7,6 +7,7 @@ public class ScenarioDialogueHandler : MonoBehaviour {
     public DialogueManager dialogueMgr;
     public TouchpadSelectionUI selectionUI;
 
+    public AudioSource speechAudioSource;
 
 	// Use this for initialization
 	void Start () {
@@ -49,12 +50,20 @@ public class ScenarioDialogueHandler : MonoBehaviour {
             return;
         }
 
-        // Check if dialogue audio is playing
-        AudioSource audio = dialogueMgr.CurrentAct.GetComponent<AudioSource>();
-        if (audio != null)
+        if (speechAudioSource != null)
+        {         
+            // Check if dialogue audio is playing
+            AudioSource audio = dialogueMgr.CurrentAct.GetComponent<AudioSource>();
+            if (audio != null)
+            {
+                // Disable control if audio is playing
+                SetUIEnabled(!audio.isPlaying);
+            }
+        }
+        else
         {
-            // Disable control if audio is playing
-            SetUIEnabled(!audio.isPlaying);
+            // Check if source is playing
+            SetUIEnabled(!speechAudioSource.isPlaying);
         }
 	}
 
