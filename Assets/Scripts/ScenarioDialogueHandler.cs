@@ -50,7 +50,7 @@ public class ScenarioDialogueHandler : MonoBehaviour {
             return;
         }
 
-        if (speechAudioSource != null)
+        if (speechAudioSource == null)
         {         
             // Check if dialogue audio is playing
             AudioSource audio = dialogueMgr.CurrentAct.GetComponent<AudioSource>();
