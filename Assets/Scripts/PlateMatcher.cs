@@ -23,7 +23,7 @@ public class PlateMatcher : MonoBehaviour {
     public void Match()
     {
         Debug.Log(plate.text);
-        if (plate.text.ToLower() == "abcdef" || plate.text.ToLower() == "abc-def")
+        if (plate.text.ToUpper() == "W772UQ" || plate.text.ToUpper() == "W77-2UQ")
         {
             searchScreen.SetActive(false);
             infoScreen.SetActive(true);
