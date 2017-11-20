@@ -30,8 +30,11 @@ namespace CurvedVRKeyboard {
 
         void Update () {
             // * sum of all scales so keys are never to far
+            /*
             rayLength = Vector3.Distance(raycastingSource.position, target.transform.position) * (minRaylengthMultipler + 
                  (Mathf.Abs(target.transform.lossyScale.x) + Mathf.Abs(target.transform.lossyScale.y) + Mathf.Abs(target.transform.lossyScale.z)));
+            */ // IW Note: This was calculating incorrectly causing the ray to miss occasionally
+            rayLength = 2;
             RayCastKeyboard();
         }
 
