@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ScenarioPicker : MonoBehaviour {
     private int scenario = -1;
@@ -11,14 +12,9 @@ public class ScenarioPicker : MonoBehaviour {
 
     void OnLevelWasLoaded(int level)
     {
-        // Check if in initial scene or not
-        if (GameObject.FindObjectOfType<DialogueManager>() == null)
+        if (SceneManager.GetActiveScene().name == "OutsideScene")
         {
             LoadOutsideDialogue();
-        }
-        else
-        {
-            LoadScenarioDialogue();
         }
     }
 
@@ -47,6 +43,24 @@ public class ScenarioPicker : MonoBehaviour {
 
     public void LoadOutsideDialogue()
     {
+        GameObject go = null;
+        switch (scenario)
+        {
+            default:
+            case 1:
+                go = GameObject.Find("[Stop]");
+                break;
+            case 2:
+                go = GameObject.Find("[Turn]");
+                break;
+            case 3:
+                go = GameObject.Find("[Reckless]");
+                break;
+        }
 
+        if (go != null)
+        {
+            go.GetComponent<AudioSource>().playOnAwake = true;
+        }
     }
 }
