@@ -69,4 +69,21 @@ public class SwitchScene : MonoBehaviour {
             SceneManager.LoadScene(sceneName, LoadSceneMode.Single);
         }
     }
+
+    public void EndApplication()
+    {
+        if (fadeOutOnExit)
+        {
+            // Start fade out then load scene after time has passed
+            FadeOut();
+            StartCoroutine(DelayForTime(fadeDuration, delegate
+            {
+                Application.Quit();
+            }));
+        }
+        else
+        {
+            Application.Quit();
+        }
+    }
 }
