@@ -50,6 +50,109 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     path: 
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0, y: 6.65, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 11.933333
+        value: {x: 0, y: 6.65, z: -2.525}
+        inSlope: {x: 0, y: 0, z: -0.59940654}
+        outSlope: {x: 0, y: 0, z: -0.59940654}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 16.85
+        value: {x: 0, y: 6.65, z: -681.153}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Ready_for_service___2011_Chevy_Caprice1/G_2011_Chevy_Caprice_Brookfield_edtion1/G_2011_caprice_ppv1/wheel
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0, y: 6.65, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 11.933333
+        value: {x: 0, y: 6.65, z: -0.48600003}
+        inSlope: {x: 0, y: 0, z: -0.11537093}
+        outSlope: {x: 0, y: 0, z: -0.11537093}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 16.85
+        value: {x: 0, y: 6.65, z: -1333.318}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Ready_for_service___2011_Chevy_Caprice1/G_2011_Chevy_Caprice_Brookfield_edtion1/G_2011_caprice_ppv1/wheel
+      (1)
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0, y: -174.77, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 11.933333
+        value: {x: 0, y: -174.77, z: 0.82500005}
+        inSlope: {x: 0, y: 0, z: 0.19584571}
+        outSlope: {x: 0, y: 0, z: 0.19584571}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 16.85
+        value: {x: 0, y: -174.77, z: 827.93}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Ready_for_service___2011_Chevy_Caprice1/G_2011_Chevy_Caprice_Brookfield_edtion1/G_2011_caprice_ppv1/wheel
+      (2)
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0, y: -174.77, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 11.933333
+        value: {x: 0, y: -174.77, z: 1.866}
+        inSlope: {x: 0, y: 0, z: 0.44296736}
+        outSlope: {x: 0, y: 0, z: 0.44296736}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 16.85
+        value: {x: 0, y: -174.77, z: 1852.85}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Ready_for_service___2011_Chevy_Caprice1/G_2011_Chevy_Caprice_Brookfield_edtion1/G_2011_caprice_ppv1/wheel
+      (3)
   m_PositionCurves:
   - curve:
       serializedVersion: 2
@@ -107,6 +210,34 @@ AnimationClip:
       isPPtrCurve: 0
     - serializedVersion: 2
       path: 0
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 14
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1754429308
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 14
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1133418663
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 14
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1755564900
+      attribute: 4
+      script: {fileID: 0}
+      typeID: 4
+      customType: 14
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1907948069
       attribute: 4
       script: {fileID: 0}
       typeID: 4
@@ -374,6 +505,351 @@ AnimationClip:
     path: 
     classID: 4
     script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 11.933333
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 16.85
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: Ready_for_service___2011_Chevy_Caprice1/G_2011_Chevy_Caprice_Brookfield_edtion1/G_2011_caprice_ppv1/wheel
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 6.65
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 11.933333
+        value: 6.65
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 16.85
+        value: 6.65
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: Ready_for_service___2011_Chevy_Caprice1/G_2011_Chevy_Caprice_Brookfield_edtion1/G_2011_caprice_ppv1/wheel
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 11.933333
+        value: -2.525
+        inSlope: -0.59940654
+        outSlope: -0.59940654
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 16.85
+        value: -681.153
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: Ready_for_service___2011_Chevy_Caprice1/G_2011_Chevy_Caprice_Brookfield_edtion1/G_2011_caprice_ppv1/wheel
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 11.933333
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 16.85
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: Ready_for_service___2011_Chevy_Caprice1/G_2011_Chevy_Caprice_Brookfield_edtion1/G_2011_caprice_ppv1/wheel
+      (1)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 6.65
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 11.933333
+        value: 6.65
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 16.85
+        value: 6.65
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: Ready_for_service___2011_Chevy_Caprice1/G_2011_Chevy_Caprice_Brookfield_edtion1/G_2011_caprice_ppv1/wheel
+      (1)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 11.933333
+        value: -0.48600003
+        inSlope: -0.11537093
+        outSlope: -0.11537093
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 16.85
+        value: -1333.318
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: Ready_for_service___2011_Chevy_Caprice1/G_2011_Chevy_Caprice_Brookfield_edtion1/G_2011_caprice_ppv1/wheel
+      (1)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 11.933333
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 16.85
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: Ready_for_service___2011_Chevy_Caprice1/G_2011_Chevy_Caprice_Brookfield_edtion1/G_2011_caprice_ppv1/wheel
+      (2)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -174.77
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 11.933333
+        value: -174.77
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 16.85
+        value: -174.77
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: Ready_for_service___2011_Chevy_Caprice1/G_2011_Chevy_Caprice_Brookfield_edtion1/G_2011_caprice_ppv1/wheel
+      (2)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 11.933333
+        value: 0.82500005
+        inSlope: 0.19584571
+        outSlope: 0.19584571
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 16.85
+        value: 827.93
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: Ready_for_service___2011_Chevy_Caprice1/G_2011_Chevy_Caprice_Brookfield_edtion1/G_2011_caprice_ppv1/wheel
+      (2)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 11.933333
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 16.85
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.x
+    path: Ready_for_service___2011_Chevy_Caprice1/G_2011_Chevy_Caprice_Brookfield_edtion1/G_2011_caprice_ppv1/wheel
+      (3)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -174.77
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 11.933333
+        value: -174.77
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 16.85
+        value: -174.77
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.y
+    path: Ready_for_service___2011_Chevy_Caprice1/G_2011_Chevy_Caprice_Brookfield_edtion1/G_2011_caprice_ppv1/wheel
+      (3)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 11.933333
+        value: 1.866
+        inSlope: 0.44296736
+        outSlope: 0.44296736
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 16.85
+        value: 1852.85
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAnglesRaw.z
+    path: Ready_for_service___2011_Chevy_Caprice1/G_2011_Chevy_Caprice_Brookfield_edtion1/G_2011_caprice_ppv1/wheel
+      (3)
+    classID: 4
+    script: {fileID: 0}
   m_EulerEditorCurves:
   - curve:
       serializedVersion: 2
@@ -403,6 +879,135 @@ AnimationClip:
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
     path: 
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: Ready_for_service___2011_Chevy_Caprice1/G_2011_Chevy_Caprice_Brookfield_edtion1/G_2011_caprice_ppv1/wheel
+      (3)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Ready_for_service___2011_Chevy_Caprice1/G_2011_Chevy_Caprice_Brookfield_edtion1/G_2011_caprice_ppv1/wheel
+      (3)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Ready_for_service___2011_Chevy_Caprice1/G_2011_Chevy_Caprice_Brookfield_edtion1/G_2011_caprice_ppv1/wheel
+      (3)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: Ready_for_service___2011_Chevy_Caprice1/G_2011_Chevy_Caprice_Brookfield_edtion1/G_2011_caprice_ppv1/wheel
+      (1)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Ready_for_service___2011_Chevy_Caprice1/G_2011_Chevy_Caprice_Brookfield_edtion1/G_2011_caprice_ppv1/wheel
+      (1)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Ready_for_service___2011_Chevy_Caprice1/G_2011_Chevy_Caprice_Brookfield_edtion1/G_2011_caprice_ppv1/wheel
+      (1)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: Ready_for_service___2011_Chevy_Caprice1/G_2011_Chevy_Caprice_Brookfield_edtion1/G_2011_caprice_ppv1/wheel
+      (2)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Ready_for_service___2011_Chevy_Caprice1/G_2011_Chevy_Caprice_Brookfield_edtion1/G_2011_caprice_ppv1/wheel
+      (2)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Ready_for_service___2011_Chevy_Caprice1/G_2011_Chevy_Caprice_Brookfield_edtion1/G_2011_caprice_ppv1/wheel
+      (2)
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.x
+    path: Ready_for_service___2011_Chevy_Caprice1/G_2011_Chevy_Caprice_Brookfield_edtion1/G_2011_caprice_ppv1/wheel
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.y
+    path: Ready_for_service___2011_Chevy_Caprice1/G_2011_Chevy_Caprice_Brookfield_edtion1/G_2011_caprice_ppv1/wheel
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalEulerAngles.z
+    path: Ready_for_service___2011_Chevy_Caprice1/G_2011_Chevy_Caprice_Brookfield_edtion1/G_2011_caprice_ppv1/wheel
     classID: 4
     script: {fileID: 0}
   m_HasGenericRootTransform: 1
