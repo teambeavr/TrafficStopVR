@@ -12,7 +12,7 @@ public class Panel : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         Image img = GameObject.Find("Panel").GetComponent<Image>();
-        img.color = UnityEngine.Color.cyan;
+       // img.color = UnityEngine.Color.cyan;
 	}
 
     public void showHidePanel()
