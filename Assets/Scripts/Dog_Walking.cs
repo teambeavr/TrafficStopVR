@@ -1,7 +1,7 @@
 ﻿// Patrol.cs
 using UnityEngine;
-using UnityEditor;
-using UnityEditor.Animations;
+//using UnityEditor;
+//using UnityEditor.Animations;
 using System.Collections;
 public class Dog_Walking : MonoBehaviour
 {
